@@ -1,4 +1,8 @@
 # Portfolio
 Simple Portfolio website
 
-# https://eyad-zanaty.github.io/Portfolio/
+### Languages :
+- Html
+- CSS
+
+[Website Link](https://eyad-zanaty.github.io/Portfolio/)
