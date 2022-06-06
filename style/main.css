@@ -188,11 +188,10 @@ nav{
     background-color: white;
     display: flex;
     flex-direction: column;
-    margin-bottom: 45px
+    margin-bottom: 40px;
 }
-.fourth image{
-    width: 100%;
-    height: 30%;
+.fourth img{
+    object-fit: cover
 }
 .fourth h4{
     font-size: 20px;
@@ -363,7 +362,7 @@ nav{
         font-size: 16vw;
     }
     .Header{
-        height: 100vh!important;
+/*        height: 100vh!important;*/
     }
     .Header h4{
         margin-top: 30vh!important;
@@ -426,6 +425,9 @@ nav{
         width: 270px!important;
         margin-left: auto;
         margin-right: auto;
+    }
+    .fourth div:last-child{
+        margin-top: 0px!important;
     }
     .sixth h4{
         font-size: 22px;
