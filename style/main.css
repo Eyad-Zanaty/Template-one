@@ -25,6 +25,9 @@ h3{ /* Big title */
 .gray-back{
     background-color: #f9f9f9;
 }
+html{
+    Scroll--behaviour: smooth;
+}
 /* End Global Values */
 .Container{
     margin-left: auto;
