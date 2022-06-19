@@ -5,7 +5,7 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <!-- Main Css File -->
-        <link rel="stylesheet" href="style/main.css">
+        <link rel="stylesheet"  href="style/main.css">
         <!-- Normalize Css File -->
         <link rel="stylesheet" href="style/normalize.css">
         <!-- Webfonts file -->
@@ -21,7 +21,21 @@
             <div class="Container">
                 <nav>
                     <img src="images/logo.png" class="logo">
-                    <img src="images/menu.png" class="menu">
+                    <span class="list">
+                        <!-- List icon -->
+                        <div class="list-icon">
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                        </div>
+                        <!-- List -->
+                        <ul>
+                            <li><a href="#third">Services</a></li>
+                            <li><a href="#fourth">Portifolio</a></li>
+                            <li><a href="#fifth">About</a></li>
+                            <li><a href="#sixth">Contact</a></li>
+                        </ul>
+                    </span>
                 </nav>
                 <h4>hello there!</h4>
                 <p>
@@ -64,7 +78,7 @@
             </div>
         </div>
         <!-- Third-sec -->
-        <div class="Container Third-sec">
+        <div class="Container Third-sec" id="third">
             <h3>Services</h3>
             <p>Don't be busy,be productive</p>
             <div class="all">
@@ -117,7 +131,7 @@
             </div>
         </div>
         <!-- Fourth-sec -->
-        <div class="gray-back">
+        <div class="gray-back" id="fourth">
             <div class="Container fourth-sec">
                 <h3>portfolio</h3>
                 <P>If you do it right,It will last forever</p>
@@ -149,7 +163,7 @@
             </div>
         </div>
         <!-- Fifth-sec -->
-        <div class="Container fifth-sec">
+        <div class="Container fifth-sec" id="fifth">
             <h3>About</h3>
             <p>Less is more work</p>
             <div class="fifth">
@@ -176,9 +190,9 @@
                     </p>
                 </div>                
             </div>
-            <!-- Sixth-sec -->
+            <!-- Sixth-sec ( The Last ) -->
         </div>
-        <div class="gray-back">
+        <div class="gray-back" id="sixth">
             <div class="Container sixth-sec">
                 <h3>Contact</h3>
                 <p>We are born to create</p>
