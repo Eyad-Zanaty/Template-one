@@ -26,7 +26,7 @@ h3{ /* Big title */
     background-color: #f9f9f9;
 }
 html{
-    Scroll-behaviour: smooth;
+    scroll-behavior: smooth;
 }
 /* End Global Values */
 .Container{
