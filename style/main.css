@@ -602,12 +602,9 @@ li:hover a{
         margin-bottom: 15PX;
     }
 }
-<<<<<<< HEAD
 /* Very Large Displays */
 @media(min-width: 1200px){
     .Container{
         width: 1170px;
     }
 }
-=======
->>>>>>> 7c8c1d1bb19a6e3eea0e0004014443cc6b2766bb
