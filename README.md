@@ -5,4 +5,4 @@ Simple Portfolio website
 - Html
 - CSS
 ---
-[Website Link](https://eyad-zanaty.github.io/Template-one/)
+[Website Link](https://eyad-zanaty.github.io/Simple-Portfolio-temp1/)
